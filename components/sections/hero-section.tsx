@@ -25,7 +25,7 @@ const HeroSection = () => {
             className="bg-white text-black hover:bg-white/90 w-full sm:w-auto"
             asChild
           >
-            <Link href="/create">
+            <Link href="https://github.com/Vojio/shamir-secret-manager" target="_blank" rel="noopener noreferrer">
               Get Started <ArrowRight className="ml-2 h-4 w-4" />
             </Link>
           </Button>
