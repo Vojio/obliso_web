@@ -61,7 +61,9 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="/github"
+                  href="https://github.com/obliso"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-xs text-white/60 hover:text-white/90 transition-colors"
                 >
                   GitHub
@@ -110,15 +112,24 @@ const Footer = () => {
           </div>
         </div>
         <div className="flex flex-col md:flex-row justify-between items-center gap-4 pt-6 border-t border-white/5">
-          <p className="text-xs text-white/40">
-            © 2025 Obliso. All rights reserved.
-          </p>
+          <div>
+            <p className="text-xs text-white/40 mb-2">
+              © 2025 Obliso. All rights reserved.
+            </p>
+            <p className="text-xs text-white/40 flex items-center gap-2">
+              <span className="inline-block bg-white/10 px-2 py-1 rounded text-white/70 text-xs font-medium">Open Source</span>
+              <span>100% local. No cloud. No tracking.</span>
+            </p>
+          </div>
           <div className="flex gap-4">
             <Link
-              href="/github"
+              href="https://github.com/obliso"
+              target="_blank"
+              rel="noopener noreferrer"
               className="text-white/40 hover:text-white/60 transition-colors"
             >
               <Github className="w-4 h-4" />
+              <span className="sr-only">GitHub</span>
             </Link>
             <Link
               href="/docs"

@@ -7,7 +7,7 @@ const DemoSection = () => {
   return (
     <Section>
       <SectionHeading
-        title="See How Obliso Works"
+        title="Try It In Your Terminal"
         description="Experience the simplicity and security of Obliso's seed phrase management."
       />
       <div className="max-w-4xl mx-auto border border-white/5 rounded-lg overflow-hidden">

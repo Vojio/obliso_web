@@ -30,7 +30,6 @@
 @layer base {
     * {
         @apply border-border;
-        text-wrap: balance;
     }
     html {
         background-color: hsl(0 0% 2%);
@@ -50,7 +49,6 @@
         text-wrap: balance;
     }
     h1 {
-        text-wrap: pretty;
         max-width: 15ch;
         margin-left: auto;
         margin-right: auto;

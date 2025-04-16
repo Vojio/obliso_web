@@ -6,7 +6,7 @@ const OblisoIsForSection = () => {
   return (
     <Section>
       <div className="max-w-3xl mx-auto">
-        <SectionHeading title="Obliso is for" />
+        <SectionHeading title="Who Obliso is For" />
         <div className="backdrop-blur-xs bg-white/[0.02] rounded-xl border border-white/5 p-6 md:p-8">
           <ul className="space-y-3">
             <BulletItem>

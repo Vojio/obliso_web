@@ -25,8 +25,8 @@ export default function Home() {
         <WhatOblisoIsSection />
         <HowItWorksSection />
         <StatisticsSection />
-        <WhyUseItSection />
         <OblisoIsForSection />
+        <WhyUseItSection />
         <FeaturesSection />
         <DemoSection />
         <FAQSection />

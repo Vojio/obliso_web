@@ -5,7 +5,7 @@ const WhyOblisoExistsSection = () => {
   return (
     <Section>
       <div className="max-w-3xl mx-auto">
-        <SectionHeading title="Why Obliso Exists" />
+        <SectionHeading title="Why I Built Obliso" />
         <div className="backdrop-blur-xs bg-white/[0.02] rounded-xl border border-white/5 p-6 md:p-8">
           <p className="text-sm font-medium text-white/80 mb-4 text-center">
             A message from the creator

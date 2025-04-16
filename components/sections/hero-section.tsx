@@ -13,12 +13,11 @@ const HeroSection = () => {
           </span>
         </div>
         <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight mb-4 md:mb-6 px-1 mx-auto" style={{ maxWidth: "18ch" }}>
-          Split your seed.{" "}
-          <span className="text-white/80">Secure your future.</span>
+          Secure your Bitcoin.{" "}
+          <span className="text-white/80">Share it safely.</span>
         </h1>
         <p className="text-sm md:text-base text-white/50 max-w-2xl mx-auto mb-6 md:mb-8 leading-relaxed px-1">
-          Advanced cryptographic sharing for Bitcoin seed phrases. Secure,
-          decentralized, and user-friendly key management.
+          Split your recovery phrase into encrypted shares, kept safe by you and your trusted people.
         </p>
         <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
           <Button

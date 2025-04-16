@@ -7,6 +7,9 @@ const WhatOblisoIsSection = () => {
       <div className="max-w-3xl mx-auto">
         <SectionHeading title="What Obliso Is" />
         <div className="backdrop-blur-xs bg-white/[0.02] rounded-xl border border-white/5 p-6 md:p-8">
+          <p className="text-base md:text-lg font-bold text-white/90 mb-4 leading-relaxed">
+            Obliso is a simple way to protect your Bitcoin recovery phrase using Shamir's Secret Sharing.
+          </p>
           <p className="text-sm md:text-base text-white/70 mb-6 leading-relaxed">
             Obliso is a modern, open-source Shamir Secret Manager for your Bitcoin seed phrase.
           </p>
