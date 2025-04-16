@@ -22,7 +22,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link
-                  href="/create"
+                  href="https://github.com/Vojio/shamir-secret-manager" target="_blank" rel="noopener noreferrer"
                   className="text-xs text-white/60 hover:text-white/90 transition-colors"
                 >
                   Create Shares

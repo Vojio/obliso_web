@@ -69,7 +69,7 @@ export function Nav() {
               size="sm" 
               className="bg-white text-black hover:bg-white/90 ml-2"
             >
-              <Link href="/create">Get Started</Link>
+              <Link href="https://github.com/Vojio/shamir-secret-manager" target="_blank" rel="noopener noreferrer">Get Started</Link>
             </Button>
           </nav>
 
@@ -111,7 +111,7 @@ export function Nav() {
                       className="bg-white text-black hover:bg-white/90 mt-4 w-full"
                     >
                       <Link 
-                        href="/create"
+                        href="https://github.com/Vojio/shamir-secret-manager" target="_blank" rel="noopener noreferrer"
                         onClick={() => setIsMobileMenuOpen(false)}
                       >
                         Get Started
