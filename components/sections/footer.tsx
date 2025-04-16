@@ -61,7 +61,7 @@ const Footer = () => {
               </li>
               <li>
                 <Link
-                  href="https://github.com/obliso"
+                  href="https://github.com/Vojio/shamir-secret-manager"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-xs text-white/60 hover:text-white/90 transition-colors"
@@ -123,7 +123,7 @@ const Footer = () => {
           </div>
           <div className="flex gap-4">
             <Link
-              href="https://github.com/obliso"
+              href="https://github.com/Vojio/shamir-secret-manager"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white/40 hover:text-white/60 transition-colors"
