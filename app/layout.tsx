@@ -1,12 +1,13 @@
-import './globals.css';
-import type { Metadata } from 'next';
-import { GeistSans } from 'geist/font/sans';
-import { ThemeProvider } from '@/components/theme-provider';
-import Nav from '@/components/ui/custom/nav';
+import "./globals.css";
+import type { Metadata } from "next";
+import { GeistSans } from "geist/font/sans";
+import { ThemeProvider } from "@/components/theme-provider";
+import Nav from "@/components/ui/custom/nav";
 
 export const metadata: Metadata = {
-  title: 'Obliso - Split your seed. Secure your future.',
-  description: 'Secure Bitcoin seed phrase management through advanced cryptographic sharing.'
+  title: "Obliso - Secure your Bitcoin and share it safely",
+  description:
+    "Secure Bitcoin seed phrase management through advanced cryptographic sharing.",
 };
 
 export default function RootLayout({
@@ -16,7 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={`${GeistSans.className} antialiased bg-black text-white`}>
+      <body
+        className={`${GeistSans.className} antialiased bg-black text-white`}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="dark"
